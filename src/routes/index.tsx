@@ -158,7 +158,7 @@ function Home() {
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
           <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are standing by 24/7.</p>
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.8900%2C24.7900%2C55.5600%2C25.3800&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Our location in Dubai" src="https://www.openstreetmap.org/export/embed.html?bbox=55.2544%2C25.1772%2C55.2944%2C25.2172&layer=mapnik&marker=25.1972%2C55.2744" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />
