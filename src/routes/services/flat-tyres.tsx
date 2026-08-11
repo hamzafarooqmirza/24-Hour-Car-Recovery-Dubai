@@ -16,7 +16,7 @@ function FlatTyres() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Flat Tyres"
+        eyebrow="Service" title="Flat Tyres (إصلاح الإطارات)"
         hero={IMG.flatTyres}
         description="A flat tyre is one of the quickest fixes we handle. Our team comes to your location, fits your spare or a suitable replacement, and has you back on the road with minimal delay."
         benefits={["Fast roadside tyre changes across Dubai", "Suitable for cars, SUVs and light vans", "Available 24 hours a day, including nights and holidays", "No need to drive on a damaged tyre", "Upfront pricing before work starts", "Safe roadside working practices at all times"]}

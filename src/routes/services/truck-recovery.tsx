@@ -16,7 +16,7 @@ function TruckRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Truck Recovery"
+        eyebrow="Service" title="Truck Recovery (سحب الشاحنات)"
         hero={IMG.truckRecovery}
         description="Trucks, lorries and commercial vehicles need recovery equipment built for the job. Our crews carry rated gear and know how to move heavier vehicles safely across Dubai, day or night."
         benefits={["Recovery equipment rated for trucks and heavier vehicles", "Experienced crews trained on commercial vehicle handling", "Available 24 hours a day for breakdowns and accidents", "Careful coordination for fleet and business vehicles", "Fixed pricing agreed before recovery begins", "Safe transport to your depot, garage or workshop"]}
