@@ -15,7 +15,7 @@ export const Route = createFileRoute("/gallery")({
 function GalleryPage() {
   const images = [
     IMG.hero, IMG.carRecovery, IMG.truckRecovery, IMG.machineRecovery,
-    IMG.bikeRecovery, IMG.batteryJumpStart, IMG.flatTyres, IMG.fleet, IMG.commercialFleet,
+    IMG.bikeRecovery, IMG.bikeRecoveryAlt, IMG.batteryJumpStart, IMG.flatTyres, IMG.fleet, IMG.commercialFleet,
   ];
   return (
     <SiteLayout>
