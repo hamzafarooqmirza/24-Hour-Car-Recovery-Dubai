@@ -15,7 +15,11 @@ export function Footer() {
           <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">Services</h3>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             {SERVICES.map((s) => (
-              <li key={s.slug}><Link to={s.slug} className="hover:text-primary">{s.title}</Link></li>
+              <li key={s.slug}>
+                <Link to={s.slug} className="hover:text-primary">
+                  {s.title} <span dir="rtl" lang="ar">({s.titleAr})</span>
+                </Link>
+              </li>
             ))}
           </ul>
         </div>

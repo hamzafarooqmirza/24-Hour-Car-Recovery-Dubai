@@ -16,7 +16,7 @@ function BikeRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Bike Recovery"
+        eyebrow="Service" title="Bike Recovery (سحب الدراجات النارية)"
         hero={IMG.bikeRecovery}
         description="Motorbikes need a gentler approach to recovery. Our team secures your bike properly before transport, so it arrives at the garage or your home in the same condition it left the roadside."
         benefits={["Secure strapping designed to protect the bike's frame and bodywork", "Available 24 hours a day across Dubai", "Suitable for breakdowns, flat batteries and accidents", "Transport to a garage, workshop or home address", "Upfront pricing before we dispatch a vehicle", "Careful, experienced loading every time"]}

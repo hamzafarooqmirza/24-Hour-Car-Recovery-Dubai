@@ -21,7 +21,7 @@ function ServicesPage() {
       <PageHero eyebrow="Our Services" title="Every kind of recovery, one call away" subtitle="From everyday cars to trucks and heavy machinery, our Dubai-based team is equipped and ready around the clock." image={IMG.hero} />
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-16">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES.map((s) => <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} desc={s.desc} />)}
+          {SERVICES.map((s) => <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} titleAr={s.titleAr} desc={s.desc} />)}
         </div>
       </section>
       <EmergencyCTA />

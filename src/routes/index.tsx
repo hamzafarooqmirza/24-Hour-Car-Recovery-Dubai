@@ -35,7 +35,7 @@ function Home() {
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black tracking-tight leading-[1.05]">
             24 Hour<br />
-            <span className="bg-gradient-to-r from-primary to-yellow-200 bg-clip-text text-transparent">Car Recovery</span><br />
+            <span className="bg-gradient-to-r from-primary to-green-200 bg-clip-text text-transparent">Car Recovery</span><br />
             Dubai
           </h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
@@ -75,7 +75,7 @@ function Home() {
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((s) => (
-            <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} desc={s.desc} />
+            <ServiceCard key={s.slug} to={s.slug} image={s.image} title={s.title} titleAr={s.titleAr} desc={s.desc} />
           ))}
         </div>
       </section>
@@ -158,7 +158,7 @@ function Home() {
           <h2 className="mt-3 text-4xl md:text-5xl font-black">Need help right now?</h2>
           <p className="mt-4 text-muted-foreground">Send us a message or call directly. Our dispatchers are standing by 24/7.</p>
           <div className="mt-8 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Service area map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.8900%2C24.7900%2C55.5600%2C25.3800&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Our location in Dubai" src="https://www.openstreetmap.org/export/embed.html?bbox=55.2544%2C25.1772%2C55.2944%2C25.2172&layer=mapnik&marker=25.1972%2C55.2744" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />

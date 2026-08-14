@@ -25,7 +25,7 @@ function ContactPage() {
               { i: Phone, t: "Phone (24/7)", v: PHONE_DISPLAY, href: `tel:${PHONE}` },
               { i: MessageCircle, t: "WhatsApp", v: "Message us instantly", href: WHATSAPP },
               { i: Mail, t: "Email", v: EMAIL, href: `mailto:${EMAIL}` },
-              { i: MapPin, t: "Location", v: ADDRESS, href: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}` },
+              { i: MapPin, t: "Location", v: ADDRESS, href: "https://www.google.com/maps/search/?api=1&query=25.1972,55.2744" },
             ].map((c) => (
               <a key={c.t} href={c.href} className="flex items-start gap-4 rounded-3xl border border-border bg-card/60 p-6 backdrop-blur-xl hover:border-primary/50 transition">
                 <span className="grid h-12 w-12 place-items-center rounded-2xl bg-primary/15 text-primary shrink-0"><c.i className="h-6 w-6" /></span>
@@ -37,7 +37,7 @@ function ContactPage() {
             ))}
           </div>
           <div className="mt-6 overflow-hidden rounded-3xl border border-border aspect-[4/3]">
-            <iframe title="Map" src="https://www.openstreetmap.org/export/embed.html?bbox=54.8900%2C24.7900%2C55.5600%2C25.3800&layer=mapnik" className="h-full w-full" loading="lazy" />
+            <iframe title="Our location in Dubai" src="https://www.openstreetmap.org/export/embed.html?bbox=55.2544%2C25.1772%2C55.2944%2C25.2172&layer=mapnik&marker=25.1972%2C55.2744" className="h-full w-full" loading="lazy" />
           </div>
         </div>
         <ContactForm />

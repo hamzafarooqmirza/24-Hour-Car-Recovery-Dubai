@@ -16,7 +16,7 @@ function CarRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Car Recovery"
+        eyebrow="Service" title="Car Recovery (سحب السيارات)"
         hero={IMG.carRecovery}
         description="Whether your car has broken down, won't start, or simply needs moving from one place to another, our Dubai recovery team can be with you fast. We handle saloons, hatchbacks, SUVs and family cars with equal care."
         benefits={["Dispatch available 24 hours a day, every day of the year", "Typical arrival time of 20-40 minutes across Dubai", "Drivers track your exact location by GPS", "Suitable for breakdowns, flat batteries and non-starters", "Upfront pricing agreed before we set off", "Careful loading and secure transport every time"]}

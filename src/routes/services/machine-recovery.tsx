@@ -16,7 +16,7 @@ function MachineRecovery() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Machine Recovery"
+        eyebrow="Service" title="Machine Recovery (نقل المعدات الثقيلة)"
         hero={IMG.machineRecovery}
         description="When heavy machinery breaks down or needs relocating, moving it safely takes the right equipment and experience. We recover and transport construction and industrial machines to wherever they're needed across Dubai."
         benefits={["Suited to construction and industrial machinery", "Secure loading and tie-down for the journey", "Available around the clock for site emergencies", "Coordinated delivery to your depot or workshop", "Clear pricing agreed before we begin", "Careful handling to avoid further damage"]}

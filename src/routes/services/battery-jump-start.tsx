@@ -16,7 +16,7 @@ function BatteryJumpStart() {
   return (
     <SiteLayout>
       <ServicePageTemplate
-        eyebrow="Service" title="Battery Jump-Start"
+        eyebrow="Service" title="Battery Jump-Start (تشغيل البطارية)"
         hero={IMG.batteryJumpStart}
         description="A flat battery doesn't need to ruin your day. Our team comes straight to your location with the right equipment to jump-start your car and get you moving again, usually within minutes."
         benefits={["Fast callout for flat and weak batteries", "Suitable for cars, vans and light vehicles", "Available 24 hours a day across Dubai", "No need to wait for a full recovery vehicle", "Clear, upfront pricing before we start", "Advice on whether a battery replacement is needed"]}
